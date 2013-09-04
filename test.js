@@ -1,6 +1,10 @@
 
 
+<<<<<<< HEAD
 //---------some auxiliary functions to display results and define goal
+=======
+//------ some auxiliary functions to display results and define goal
+>>>>>>> gh-pages
 var goal;
 
 function resetGoal(){
@@ -41,7 +45,11 @@ function displayResults(clearResults){
 resetGoal();
 displayGoal();
 
+<<<<<<< HEAD
 //------------ now the juice
+=======
+//----- now the juice
+>>>>>>> gh-pages
 
 var ga = new Genetic({
     size: 100,
@@ -76,5 +84,11 @@ ga.add(new Feature({
 
 ga.createPopulation();
 ga.solve();
+<<<<<<< HEAD
+=======
+
+//-------
+
+>>>>>>> gh-pages
 displayResults();
 

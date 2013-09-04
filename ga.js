@@ -29,7 +29,11 @@ function Genetic(options) {
 Genetic.prototype.reset = function(options){
     var f = this.features;
     var fk = this.featureKeys;
+<<<<<<< HEAD
     Genetic.call(this, options || this.options);
+=======
+    Genetic.call(this, _.extend(this.options, options || {}));
+>>>>>>> gh-pages
     this.featureKeys = fk;
     this.features = f;
 };
