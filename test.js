@@ -1,5 +1,3 @@
-
-
 //------ some auxiliary functions to display results and define goal
 var goal;
 
